@@ -1,0 +1,80 @@
+# ==============================
+# Python
+# ==============================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# ==============================
+# Environnements virtuels
+# ==============================
+venv/
+.venv/
+env/
+ENV/
+
+# ==============================
+# Jupyter Notebook
+# ==============================
+.ipynb_checkpoints/
+
+# ==============================
+# IDE et éditeurs
+# ==============================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ==============================
+# Fichiers système
+# ==============================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ==============================
+# Variables d'environnement et secrets
+# ==============================
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets.json
+credentials.json
+
+# ==============================
+# Logs et fichiers temporaires
+# ==============================
+*.log
+*.tmp
+*.bak
+*.temp
+
+# ==============================
+# Tests et couverture
+# ==============================
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ==============================
+# Builds et distributions
+# ==============================
+build/
+dist/
+*.egg-info/
+
+# ==============================
+# Streamlit
+# ==============================
+.streamlit/secrets.toml
+
+# ==============================
+# Données et résultats (à adapter)
+# ==============================
+results/
+outputs/
+temp/
